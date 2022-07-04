@@ -20,13 +20,13 @@ html {
 }
 
 body {
+    background-color: var(--text-color);
     font-size: var(--font-size-medium);
     font-family: var(--font-family-base);
 }
 
 a {
     color: var(--text-color);
-    font-family: var(--font-family-base);
 }
 
 .visually-hidden {
