@@ -20,14 +20,10 @@ html {
 }
 
 body {
-    font: var(--font-size-medium)
-}
-
-body{
+    font-size: var(--font-size-medium);
     font-family: var(--font-family-base);
 }
 
-body,
 a {
     color: var(--text-color);
     font-family: var(--font-family-base);
