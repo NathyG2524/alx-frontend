@@ -26,7 +26,7 @@ body {
     background-color: var(--text-color);
     font-size: var(--font-size-medium);
     font-family: var(--font-family-base);
-    font-weight: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
 
 }
 
