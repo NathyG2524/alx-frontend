@@ -293,7 +293,7 @@ a:active {
 }
 
 .button:hover {
-    color:var(--button-hover-color);
+    color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
 }
@@ -302,19 +302,21 @@ a:active {
     display: none;
 }
 
-.header{
+.header {
     padding: var(--header-padding);
 }
 
 .header-logo {
     position: var(--header-logo-position);
 }
-.header-logo a{
+
+.header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left);   
+    left: var(--header-logo-link-left);
 }
+
 .card-category {
     color: var(--color-primary);
 }
@@ -350,13 +352,13 @@ a:active {
     color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link::before{
+.nav .nav-link::before {
     content: "";
-    position:absolute;
-    top:0;
-    left:0;
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: var(--color-white);
-    width:0;
+    width: 0;
     height: 0.2rem;
 
 }
@@ -407,10 +409,11 @@ a:active {
     margin: var(--section-tagline-margin);
 }
 
-.section-hero{
+.section-hero {
     background-size: 90rem auto;
 }
-.section-hero .section-title{
+
+.section-hero .section-title {
     margin-bottom: 5rem;
 }
 
@@ -483,26 +486,30 @@ ul.row {
 .card-services .card-title {
     margin: 0;
 }
+
 .card-services a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
 }
+
 .card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
 }
+
 .card-testimonial {
     text-align: center;
 }
-.card-testimonial .card-avatar{
+
+.card-testimonial .card-avatar {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
 
-.card-testimonial .card-quote cite{
+.card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
@@ -520,7 +527,7 @@ ul.row {
     vertical-align: bottom;
 }
 
-.card-work .card-title {
+.card-work .card-inner {
     position: absolute;
     top: -0.1rem;
     left: -0.1rem;
@@ -541,12 +548,12 @@ ul.row {
 }
 
 .card-work .card-title a {
-    display:block;
+    display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-work .card-title  a::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
