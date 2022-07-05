@@ -231,7 +231,7 @@ template {
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
-    --button-color: var-(color-black);
+    --button-color: var(--color-black);
     --button-text-decoration: none;
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
@@ -293,6 +293,13 @@ a:active {
     background-color: var(--button-hover-background);
 }
 
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background: var(--color-black);
+    --button-color: var(--color-white);
+}
+
 .visually-hidden {
     display: none;
 }
@@ -330,13 +337,6 @@ a:active {
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
-}
-
-[data-section-theme="dark"] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background: var(--color-black);
-    --button-color: var(--color-white);
 }
 
 .section {
