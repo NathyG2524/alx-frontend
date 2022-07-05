@@ -348,18 +348,23 @@ section :is(h1, h2, h3, h4, h5, h6) {
     font-weight: var(--font-weight-bold);
 }
 
-.row ul{
+ul.row{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .col-1-3{
-    width: 0.33em;
+    width: 0.5em;
     float: left;
     padding: 0.5rem;
 }
 
+.col-1-2{
+    width: 0.33em;
+    float: left;
+    padding: 0.5rem;
+}
 .footer {
     padding: var(--footer-padding);
 }
