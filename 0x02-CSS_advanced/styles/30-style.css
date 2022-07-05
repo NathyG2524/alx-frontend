@@ -508,7 +508,7 @@ ul.row {
     color: var(--color-primary);
 }
 
-.card-work .card-outer{
+.card-work .card-outer img{
     position: relative;
     overflow: hidden;
 }
